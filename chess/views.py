@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def info_list(request):
+    return render(request, 'chess/info_list.html',{})
