@@ -11,25 +11,112 @@
         <div class="page-header">
             <h1><a href="/">The Mira Loma Chess Club {{ post.text|linebreaksbr }}</a></h1>
         </div>
-        <div class="content container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="info">
-                    <h2><a href="">What is Chess?</a></h2>
-                    <p>Chess is a two-player strategy board game played on a checkered board with 64 squares arranged in an 8×8 grid. Each player begins with 16 pieces: one king, one queen, two rooks, two knights, two bishops, and eight pawns. Each piece type moves differently. The goal is to checkmate the opponent's king for both players but draws occur often. {{ post.text|linebreaksbr }}</p>
-                    </div>
-                </div>
-            </div>
+        <div class="tab">
+          <button class="tablinks" onclick="openTab(event, 'Overview')">Overview</button>
+          <button class="tablinks" onclick="openTab(event, 'IB connections')">IB Connections</button>
+          <button class="tablinks" onclick="openTab(event, 'Game analyzer')">Game Analyzer</button>
         </div>
-        <div>
+        <div id="Overview" class="tabcontent">
+            <h3><a href="">Overview</a></h3>
             <div class="content container">
                 <div class="row">
                     <div class="col-md-8">
-                    <h2><a href="">About the club</a></h2>
-                    <p>The Mira Loma Chess Club is an official academic club of Mira Loma HS but we have lots of fun too. We meet Tuesdays 3:05 - 4:05 and Fridays 3:05 - 4:35 when possible. {{ post.text|linebreaksbr }}</p>
+                        <div class="info">
+                            <h2>What is Chess?</h2>
+                            <p>Chess is a two-player strategy board game played on a checkered board with 64 squares arranged in an 8×8 grid. Play involves no hidden information. Each player begins with 16 pieces: one king, one queen, two rooks, two knights, two bishops, and eight pawns. Each piece type moves differently, with the most powerful being the queen and the least powerful the pawn. The objective is to checkmate the opponent's king by placing it under an inescapable threat of capture. To this end, a player's pieces are used to attack and capture the opponent's pieces, while supporting each other. During the game, play typically involves exchanging pieces for the opponent's similar pieces and finding and engineering opportunities to trade advantageously or to get a better position. In addition to checkmate, a player wins the game if the opponent resigns, or (in a timed competition) runs out of time. There are also several ways that a game can end in a draw. {{ post.text|linebreaksbr }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="content container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h2>About the club</h2>
+                            <p>The Mira Loma Chess Club is an official academic club of Mira Loma HS, but we have lots of fun too. We meet Tuesdays 3:05 - 4:05 and Fridays 3:05 - 4:35 as often as possible in room B5. Meeting attendance will become more strict as we approach the Spring league tournament. You do not have to be rated in any way in USCF or have heard of tournaments. Still, we only have a limit of five players on the starting lineup, and substitutes have a minor chance of participating in impactful matches, thus practicing often and learning from your mistakes is critical. Our club reached second place in 2018-2019 and got first place in 2016-2017.{{ post.text|linebreaksbr }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="content container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h2>Club Officers</h2>
+                            <p>Joshua Liu - Club co-president,
+                            Manvi Ketireddy - Club co-president,
+                            Illya Nabok - Club Vice President,
+                            Nnika - Club Treasurer,
+                            Kyle Luo - Club secretary,
+                            Mr.Muratore - Club Advisor. {{ post.text|linebreaksbr }}</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="IB connections" class="tabcontent">
+            <h3><a href="">IB Connections</a></h3>
+            <div class="content container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="info">
+                            <h2>IB Global Contexts Connections</h2>
+                            <p>The Mira Loma Chess Club connects to the IB global contexts through promoting Fairness and Development and Personal and Cultural Expression through our common liking of the game of chess and forming an environment of people who are similar to us to finally create a team of people with this unique talent to showcase our skill in a league tournament against people who are like us from another school which inspires a competitive feeling that truly unites a team.{{ post.text|linebreaksbr }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="content container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h2>IB Learner Profile Relations</h2>
+                            <p>The Mira Loma Chess Club helps members gain for IB Learner Profile traits like Inquirers, Thinkers, and Reflective, which happens when we inquire about different ways to play and opening which can be reviewed for flaws and successes and use thinking skills to improve our strategies. Next, the traits of Principled, Caring, and Balanced are benefited through the club as in chess, and we must respect the opponent no matter the situation and play fairly with integrity and honesty. Finally, we control our emotions while using our intellectual skills to win matches so that when the results genuinely mean something, we can let our feelings out. {{ post.text|linebreaksbr }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="content container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h2>How the Club Benefits the School Campus</h2>
+                            <p>The Mira Loma Chess Club benefits the Mira Loma school campus by giving anyone of any skill or experience of chess to join this academic and fun club and have a peaceful learning environment to gain the aforementioned IB Learner Profile traits and acquire the Global Contexts to benefit themselves to succeed at Mira Loma and in life. We can make friends in this club and people who are willing to help us when we need it. {{ post.text|linebreaksbr }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Game analyzer" class="tabcontent">
+            <h3><a href=""Game Analyzer</a></h3>
+            <div class="content container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="info">
+                            <h2>Analyzer</h2>
+                            <p> <a href="https://lichess.org/analysis">Click this link to go to the lichess game analyzer and move the pieces to have Stockfish analyze your game.</a>
+                            {{ post.text|linebreaksbr }}</p>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+        <script>
+        function openTab(evt, tabName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(tabName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
     </body>
 </html>
