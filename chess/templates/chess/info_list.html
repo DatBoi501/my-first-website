@@ -9,7 +9,11 @@
     </head>
     <body>
         <div class="page-header">
-            <h1><a href="/">The Mira Loma Chess Club {{ post.text|linebreaksbr }}</a></h1>
+            <h1>
+                <img src="/static/image.png" alt="" width = 187.5px; height = 209px>
+                <a href="/">The Mira Loma Chess Club {{ post.text|linebreaksbr }}</a>
+                <img src="/static/image.png" alt="" width = 187.5px; height = 209px>
+            </h1>
         </div>
         <div class="tab">
           <button class="tablinks" onclick="openTab(event, 'Overview')">Overview</button>
@@ -18,12 +22,14 @@
         </div>
         <div id="Overview" class="tabcontent">
             <h3><a href="">Overview</a></h3>
+            <img src="/static/pawn.jpg" alt="" width = 250px; height = 325px align="right">
             <div class="content container">
                 <div class="row">
                     <div class="col-md-8">
                         <div class="info">
                             <h2>What is Chess?</h2>
-                            <p>Chess is a two-player strategy board game played on a checkered board with 64 squares arranged in an 8×8 grid. Play involves no hidden information. Each player begins with 16 pieces: one king, one queen, two rooks, two knights, two bishops, and eight pawns. Each piece type moves differently, with the most powerful being the queen and the least powerful the pawn. The objective is to checkmate the opponent's king by placing it under an inescapable threat of capture. To this end, a player's pieces are used to attack and capture the opponent's pieces, while supporting each other. During the game, play typically involves exchanging pieces for the opponent's similar pieces and finding and engineering opportunities to trade advantageously or to get a better position. In addition to checkmate, a player wins the game if the opponent resigns, or (in a timed competition) runs out of time. There are also several ways that a game can end in a draw. {{ post.text|linebreaksbr }}</p>
+                            <p>Chess is a two-player strategy board game played on a checkered board with 64 squares arranged in an 8×8 grid. Play involves no hidden information. Each player begins with 16 pieces: one king, one queen, two rooks, two knights, two bishops, and eight pawns. Each piece type moves differently, with the most powerful being the queen and the least powerful the pawn. The objective is to checkmate the opponent's king by placing it under an inescapable threat of capture. To this end, a player's pieces are used to attack and capture the opponent's pieces, while supporting each other. During the game, play typically involves exchanging pieces for the opponent's similar pieces and finding and engineering opportunities to trade advantageously or to get a better position. In addition to checkmate, a player wins the game if the opponent resigns, or (in a timed competition) runs out of time. There are also several ways that a game can end in a draw. {{ post.text|linebreaksbr }}
+                                </p>
                         </div>
                     </div>
                 </div>
@@ -56,6 +62,7 @@
         </div>
         <div id="IB connections" class="tabcontent">
             <h3><a href="">IB Connections</a></h3>
+            <img src="/static/IB.jpg" alt="" width = 350px; height = 247px align="right">
             <div class="content container">
                 <div class="row">
                     <div class="col-md-8">
@@ -89,6 +96,7 @@
         </div>
         <div id="Game analyzer" class="tabcontent">
             <h3><a href=""Game Analyzer</a></h3>
+            <img src="/static/chess.jpg" alt="" width = 480px; height = 300px align="right">
             <div class="content container">
                 <div class="row">
                     <div class="col-md-8">
